@@ -12,6 +12,38 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
+Here is my typical build process:
+
+```
+c:\Projects\typescript-workspace\cra-latest-ts (master) (cra-latest-ts@0.1.0)
+λ yarn build
+yarn build v0.25.2
+$ react-scripts-ts build
+Creating an optimized production build...
+Warning: The 'no-use-before-declare' rule requires type checking
+ts-loader: Using typescript@2.3.4 and c:\Projects\typescript-workspace\cra-latest-ts\tsconfig.json
+Compiled successfully.
+
+File sizes after gzip:
+
+  48 KB  build\static\js\main.611b3622.js
+  289 B  build\static\css\main.9a0fe4f1.css
+
+The project was built assuming it is hosted at the server root.
+To override this, specify the homepage in your package.json.
+For example, add this to build it for GitHub Pages:
+
+  "homepage" : "http://myname.github.io/myapp",
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  yarn global add serve
+  serve -s build
+
+Done in 15.26s.
+```
+
 ## Table of Contents
 
 - [Updating to New Releases](#updating-to-new-releases)
