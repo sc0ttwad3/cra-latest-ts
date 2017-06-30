@@ -1,0 +1,126 @@
+# .gitignore
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+*.tmp
+*.bak
+*.scc
+*.diff
+*.err
+*.orig
+*.pid
+*.seed
+*.log
+*.log*
+*.swp
+*.vi
+*~
+*.sass-cache
+.sass-cache
+.tmp
+~$*
+.hg
+.svn
+.CVS
+.dist
+.builds
+.eslintcache
+.gatsby-context.js
+.lock-wscript
+.grunt
+.gulp
+.module-cache
+.eslintcache
+.backup
+
+# Ignore compressed/packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Ignore local node modules from npm
+node_modules
+_bower_components
+jspm_packages
+
+# due to build transpiling
+lib
+dist
+_dist
+.dist
+# public <------
+output
+serve
+prod
+serve
+static
+_site
+_deploy
+_archive
+archive
+_scratch
+scratch
+workspace
+npm-debug.log
+test
+temp
+#_coursework
+
+# OSX
+._*
+.AppleDouble
+.DS_Store
+.localized
+.LSOverride
+.Spotlight-V101
+.Trashes
+Icon
+.eprj
+
+# Tags
+# Ignore tags created by etags and ctags
+TAGS
+tags
+
+# Folders to ignore
+.hg
+.svn
+.CVS
+intermediate
+publish
+coverage
+lib-cov
+pids
+logs
+
+# JetBrains IDE and related
+.idea
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+*.sublime-projectcompletions
